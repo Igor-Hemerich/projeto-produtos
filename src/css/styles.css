@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header{
+    text-transform: uppercase; 
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    background-color: #202020;
+    border-bottom: 2px solid #181818;
+}
+
+.container{
+    background-color: #313131;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: #313131;
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url('../img/img-1.webp');
+}
+
+#img-2{
+    background-image: url('../img/img-2.jpg');
+}
+
+#img-3{
+    background-image: url('../img/img-3.jpg');
+}
+
+#img-4{
+    background-image: url('../img/img-4.png');
+}
+
+#img-5{
+    background-image: url('../img/img-5.webp');
+}
+
+#img-6{
+    background-image: url('../img/img-6.jpg');
+}
+
+h3{
+    margin: 10px 0;
+    color: #fff;
+    border-left: 5px solid #fff;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+p {
+    color: #fff;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    color: #202020;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #8a8a8a;
+}
+
+footer{
+    background-color: #202020;
+    color: #fff;
+    border-top: 2px solid #181818;
+    text-align: center;
+    padding: 40px; 
+}
+
+.card:hover{
+    transform: scale(1.3);
+}
