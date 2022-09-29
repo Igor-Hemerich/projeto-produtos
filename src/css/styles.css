@@ -26,6 +26,7 @@ header{
 }
 
 .card{
+    border-radius: 20px;
     background-color: #313131;
     width: 31%;
     display: inline-block;
@@ -36,6 +37,7 @@ header{
 }
 
 .product-image{
+    border-radius: 20px;
     height: 300px;
     width: 100%;
     background-position: center;
